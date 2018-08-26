@@ -6,6 +6,7 @@ const CardList = ({ plants }) => {
   const cardComponent = plants.map((plant, i) => {
     return (
       <Card
+        key={i}
         id={plants[i].id}
         name={plants[i].name}
         type={plants[i].type}
