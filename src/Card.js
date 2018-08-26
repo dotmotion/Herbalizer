@@ -8,11 +8,7 @@ const Card = ({ name, type, germTime, harvTime }) => {
       <div>
         <h2>{name}</h2>
         <p>
-          <span className="b">Type: </span>
-          {type}
-        </p>
-        <p>
-          <span className="b">Germination Time: </span>
+          <span className="b">Harvest Season: </span>
           {germTime}
         </p>
         <p>

@@ -1,23 +1,44 @@
 export const plants = [
   {
     id: 1,
-    name: "Watermelon",
-    type: "Fruit",
-    germTime: "2.5 weeks",
-    harvTime: "6 weeks"
+    name: "Papa",
+    harvSeason: "Jan - Feb",
+    harvTime: "120 Days"
   },
   {
     id: 2,
-    name: "Bannanna",
-    type: "Fruit",
-    germTime: "1 week",
-    harvTime: "4 - 5 weeks"
+    name: "Pepino",
+    harvSeason: "Feb - Jul",
+    harvTime: "70 Days"
   },
   {
     id: 3,
-    name: "Brocoli",
-    type: "Vegetable",
-    germTime: ".5 week",
-    harvTime: "3.5 weeks"
+    name: "Sandia",
+    harvSeason: "Feb - Mar",
+    harvTime: "120 Days"
+  },
+  {
+    id: 3,
+    name: "Camote",
+    harvSeason: "Mar",
+    harvTime: "180 Days"
+  },
+  {
+    id: 4,
+    name: "Calabacita",
+    harvSeason: "Mar - Sep",
+    harvTime: "50 - 80 Days"
+  },
+  {
+    id: 5,
+    name: "Esparrago",
+    harvSeason: "Mar",
+    harvTime: "3 Years"
+  },
+  {
+    id: 6,
+    name: "Fresa",
+    harvSeason: "Mar - Sep",
+    harvTime: "90 - 100 Days"
   }
 ];
