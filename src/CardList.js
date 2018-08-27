@@ -12,8 +12,8 @@ const CardList = ({ plants }) => {
             id={plants[i].id}
             name={plants[i].name}
             type={plants[i].type}
-            germTime={plants[i].harvSeason}
-            harvTime={plants[i].harvTime}
+            epSiembra={plants[i].epSiembra}
+            tCosecha={plants[i].tCosecha}
           />
         );
       })}
