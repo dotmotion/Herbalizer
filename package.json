@@ -2,8 +2,9 @@
   "name": "herbalizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dotmotion.github.io/Herbalizer",
+  "homepage": "https://dotmotion.github.io/Herbalizer/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
