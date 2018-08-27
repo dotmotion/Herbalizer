@@ -17,4 +17,6 @@
 
 ### Notes
 
-[notes]
+- converted the application into a class to use states
+
+- tried to add functionality to search box
