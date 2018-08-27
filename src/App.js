@@ -1,16 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import CardList from "./CardList";
-import SearchBox from "./SearchBox.js";
+import SearchBox from "./SearchBox";
 import { plants } from "./plants";
 
-const App = () => {
-  return (
-    <div className="tc">
-      <h1>My Garden</h1>
-      <SearchBox />
-      <CardList plants={plants} />
-    </div>
-  );
-};
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      plants: plants,
+      searchfield: ""
+    };
+  }
+
+  onSearchChange(e) {
+    console.log(e);
+  }
+
+  render() {
+    return (
+      <div className="tc">
+        <h1>My Garden</h1>
+        <SearchBox searchChange={this.onSearchChange} />
+        <CardList plants={this.state.plants} />
+      </div>
+    );
+  }
+}
 
 export default App;
