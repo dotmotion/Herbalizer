@@ -12,9 +12,15 @@ class App extends Component {
     };
   }
 
-  onSearchChange(e) {
-    console.log(e);
-  }
+  onSearchChange = e => {
+    this.setState({ searchfield: e.target.value });
+    const filteredPlants = this.state.plants.filter(plant => {
+      return plant.name
+        .toLowerCase()
+        .includes(this.state.searchfield.toLowerCase());
+    });
+    console.log(filteredPlants);
+  };
 
   render() {
     return (
