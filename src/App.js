@@ -25,7 +25,7 @@ class App extends Component {
     });
     return (
       <div className="tc">
-        <h1>My Garden</h1>
+        <h1>Fichas para Huertos</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList plants={filteredPlants} />
       </div>
