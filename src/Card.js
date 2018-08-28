@@ -1,10 +1,10 @@
 import React from "react";
-import code from "./code.svg";
+import leaf from "./leaf.svg";
 
 const Card = ({ name, type, epSiembra, tCosecha }) => {
   return (
     <div className="card dib br3 pa3 ma2 grow bw2 shadow-5">
-      <img alt="plant" src={code} width="100px" height="100px" />
+      <img alt="plant" src={leaf} width="100px" height="100px" />
       <div>
         <h2>{name}</h2>
         <p>
