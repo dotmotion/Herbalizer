@@ -6,10 +6,6 @@
   padding: 2rem;
 }
 
-.search-container {
-  /* margin-bottom: 1rem; */
-}
-
 .search-box {
   transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
   width: 40px;
