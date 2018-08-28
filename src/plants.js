@@ -27,31 +27,31 @@ export const plants = [
     id: 4,
     name: "Calabacita",
     epSiembra: "Mar - Sep",
-    tCosecha: "50 - 80 Dias"
+    tCosecha: "~65 Dias"
   },
   {
     id: 5,
     name: "Esparrago",
     epSiembra: "Mar",
-    tCosecha: "3 Years"
+    tCosecha: "3 Años"
   },
   {
     id: 6,
     name: "Fresa",
     epSiembra: "Mar - Sep",
-    tCosecha: "90 - 100 Dias"
+    tCosecha: "~95 Dias"
   },
   {
     id: 7,
     name: "Chile Ancho",
     epSiembra: "Mar - Abr",
-    tCosecha: "120 - 150 Dias"
+    tCosecha: "~135 Dias"
   },
   {
     id: 8,
     name: "Chile Pasilla",
     epSiembra: "Mar - Abr",
-    tCosecha: "120 - 150 Dias"
+    tCosecha: "~135 Dias"
   },
   {
     id: 9,
@@ -63,7 +63,7 @@ export const plants = [
     id: 10,
     name: "Chile Dulce",
     epSiembra: "Mar - Abr",
-    tCosecha: "120 - 180 Dias"
+    tCosecha: "~150 Dias"
   },
   {
     id: 11,
@@ -81,6 +81,24 @@ export const plants = [
     id: 13,
     name: "Cebolla",
     epSiembra: "Abr - Jun",
-    tCosecha: "130 - 150 Dias"
+    tCosecha: "~145 Dias"
+  },
+  {
+    id: 14,
+    name: "Ajo",
+    epSiembra: "Ago - Oct",
+    tCosecha: "~175 Dias"
+  },
+  {
+    id: 15,
+    name: "Chicharo",
+    epSiembra: "Ago - Oct",
+    tCosecha: "~85 Dias"
+  },
+  {
+    id: 16,
+    name: "Jitomate",
+    epSiembra: "Nov / Jun",
+    tCosecha: "120 Dias"
   }
 ];
