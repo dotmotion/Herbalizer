@@ -40,5 +40,47 @@ export const plants = [
     name: "Fresa",
     epSiembra: "Mar - Sep",
     tCosecha: "90 - 100 Dias"
+  },
+  {
+    id: 7,
+    name: "Chile Ancho",
+    epSiembra: "Mar - Abr",
+    tCosecha: "120 - 150 Dias"
+  },
+  {
+    id: 8,
+    name: "Chile Pasilla",
+    epSiembra: "Mar - Abr",
+    tCosecha: "120 - 150 Dias"
+  },
+  {
+    id: 9,
+    name: "Chile Mulato",
+    epSiembra: "Mar - Abr",
+    tCosecha: "150 Dias"
+  },
+  {
+    id: 10,
+    name: "Chile Dulce",
+    epSiembra: "Mar - Abr",
+    tCosecha: "120 - 180 Dias"
+  },
+  {
+    id: 11,
+    name: "Frijol Ejotero",
+    epSiembra: "Mar - Jun",
+    tCosecha: "60 Dias"
+  },
+  {
+    id: 12,
+    name: "Jicama",
+    epSiembra: "Mar - Jun",
+    tCosecha: "180 Dias"
+  },
+  {
+    id: 13,
+    name: "Cebolla",
+    epSiembra: "Abr - Jun",
+    tCosecha: "130 - 150 Dias"
   }
 ];
