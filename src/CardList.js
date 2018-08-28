@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const CardList = ({ plants }) => {
   return (
-    <div>
+    <div className="cardList">
       {plants.map((plant, i) => {
         return (
           <Card
