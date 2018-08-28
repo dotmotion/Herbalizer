@@ -2,10 +2,15 @@
   --main-color: #76b39d;
   --dark-color: #155e63;
   --text-color: #f9f8eb;
+  --text-dark: #16191b;
 }
 
 .card {
   background: var(--main-color);
+}
+
+.card p {
+  color: var(--text-dark);
 }
 
 .cardList {
@@ -43,10 +48,11 @@
   width: 300px;
   border-radius: auto;
   background: var(--main-color);
-  color: var(--text-color);
+  color: var(--text-dark);
 }
 .search-box:focus + label .search-icon {
   color: var(--text-color);
+  font-weight: 250;
 }
 .search-box:not(:focus) {
   text-indent: -5000px;
