@@ -9,7 +9,7 @@
 - [x] Create component that will create Cards based on DB file
 - [x] Render list of cards on page
 - [x] Create search bar
-- [ ] Generate functionality for search bar
+- [x] Generate functionality for search bar
 - [ ] Figure out interactivity for cards
 - [ ] Create proper DB file to populate the application
 - [ ] Simplify Card and open detailed Card when clicked
@@ -17,6 +17,18 @@
 
 ### Notes
 
+#### [8/26]
+
 - converted the application into a class to use states
 
 - tried to add functionality to search box
+
+#### [8/27]
+
+- fixed bug on search box
+
+- search box can now filter data
+
+- input from the search box is now sent to the CardList creator and will update the rendered list on the page
+
+- search functionality finished (for now)
