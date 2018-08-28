@@ -32,3 +32,7 @@
 - input from the search box is now sent to the CardList creator and will update the rendered list on the page
 
 - search functionality finished (for now)
+
+### Dependencies
+
+> tachyons
